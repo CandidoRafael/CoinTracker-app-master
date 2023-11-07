@@ -1,6 +1,6 @@
 import { Box, Button, Grid, IconButton, Typography } from "@mui/material";
 import { useState } from "react";
-import CloseIcon from '@mui/icons-material/close'
+import CloseIcon from '@mui/icons-material/Close';
 import { doc, updateDoc, getDoc } from 'firebase/firestore'
 import { projectFirestore } from "../../../firebase/firebase-config";
 import useCreateUser from "../../../auth/useCreateUser";
