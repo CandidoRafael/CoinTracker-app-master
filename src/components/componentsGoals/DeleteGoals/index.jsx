@@ -4,7 +4,7 @@ import Swal from 'sweetalert2';
 import useCreateUser from '../../../auth/useCreateUser'
 import { useAppStore } from "../../../store"
 import { Box, Typography, IconButton, Grid, Button } from '@mui/material';
-import CloseIcon from '@mui/icons-material/close'
+import CloseIcon from '@mui/icons-material/Close'
 
 function DeleteGoals({ handleClose, index }) {
   const setUserData = useAppStore((state) => state.setUserData);

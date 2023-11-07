@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useAppStore } from "../../../store"
 import { Box, Button, Grid, IconButton, Typography } from "@mui/material";
-import CloseIcon from '@mui/icons-material/close'
+import CloseIcon from '@mui/icons-material/Close'
 import useCreateUser from "../../../auth/useCreateUser";
 import { projectFirestore } from "../../../firebase/firebase-config";
 import { doc, updateDoc, getDoc } from "firebase/firestore";
