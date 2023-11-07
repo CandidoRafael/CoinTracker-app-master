@@ -1,0 +1,12 @@
+Cores do projeto ----
+
+VerdeEscuro - #89fcb3
+VerdeMaisClaro - #b1fcb3
+VariaçoesVerde - #d8fcb3 - #e9fccf
+
+Branco - #fffff7
+
+
+Fonte Projeto
+
+font-family: 'Zen Kaku Gothic New', sans-serif;

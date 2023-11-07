@@ -1,0 +1,9 @@
+.input-text-goal {
+   font-size: 1.1em;
+   border: none;
+   outline: none;
+   border: 2px solid green;
+   border-radius: 5px;
+   padding: .2em;
+   width: 100%;
+}

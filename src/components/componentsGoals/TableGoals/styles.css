@@ -1,0 +1,25 @@
+.status-iniciar {
+   background-color: rgba(26, 175, 88, 0.658);
+   width: fit-content;
+   padding: .4em .7em;
+   font-size: 1.2em;
+   border-radius: 5px;
+  }
+  
+  .status-fazendo {
+    width: fit-content;
+    font-size: 1.2em;
+   padding: .4em .7em;
+   border-radius: 5px;
+   background-color: rgba(180, 197, 30, 0.705);
+  }
+  
+  .status-finalizado {
+    width: fit-content;
+   padding: .4em .7em;
+   font-size: 1.2em;
+   border-radius: 5px;
+   background-color: rgba(47, 144, 224, 0.705);
+  }
+
+

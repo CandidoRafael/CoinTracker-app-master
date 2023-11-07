@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../../../assets/Wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-auth {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3em;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    -moz-box-shadow: 2px 2px 17px -1px rgba(130,130,130,1);
+    box-shadow: 2px 2px 17px -1px rgb(31, 31, 31);
+}
+
+.form-auth h2 {
+    font-size: 3em;
+    padding: .7em;
+    font-weight: 500;
+    color: #439762;
+}
+
+.form-auth input {
+    font-size: 1.2em;
+    padding: .5em 1em;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid transparent;
+    box-shadow: rgba(50, 50, 105, 0.149) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    margin-bottom: .9em;
+    transition: .5s all;
+}
+
+.form-auth input:focus {
+    border: 1px solid #439762;
+}
+
+.form-auth button {
+    font-size: 1.2em;
+    border: none;
+    color: #f8f8f8;
+    border: 1px solid #439762;
+    font-weight: 500;
+    padding: .5em;
+    border-radius: 5px;
+    background-color: #439762;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.form-auth button:hover {
+    background-color: transparent;
+    color: #439762;
+}
+
+.form-auth .errorMessage {
+    width: 20em;
+    margin: auto;
+    color: rgb(224, 14, 14);
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+.form-auth .linkDirection {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+@media (max-width: 440px) {
+    .form-auth {
+        padding: 1.5rem;
+    }
+
+    .form-auth h2{
+        font-size: 2.6rem;
+    }
+}
+

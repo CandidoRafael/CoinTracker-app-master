@@ -1,0 +1,48 @@
+.padding-All {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.priceTitle {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.priceSubtitle {
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.icon {
+    display: flex;
+    padding: 18px;
+    color: #f8f8f8;
+    background-color: #439762;
+}
+
+
+.gradient {
+    background: rgb(40, 34, 70);
+    background: linear-gradient(150deg, rgba(40, 34, 70) 0%, #439762 100%);
+}
+
+.goals-table {
+    padding: .4em;
+    list-style-type: none;
+    height: 30em;
+    overflow-y: auto;
+   
+}
+
+.goals-table li {
+    box-shadow: 0 0 2px rgb(0,0,0,.2);
+    padding: .5em;
+    font-weight: bold;
+    color: #439762;
+    border-radius: 5px;
+    margin-bottom: .5em;
+}
+
+
